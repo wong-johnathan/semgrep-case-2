@@ -23,7 +23,7 @@ npm -v
 1. **Clone the repository**
 
    ```
-   git clone <repo_url>
+   git clone https://github.com/wong-johnathan/semgrep-case-2
    ```
 
 2. **Open the project**
