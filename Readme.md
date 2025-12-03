@@ -4,10 +4,6 @@ This script retrieves all Semgrep code findings from every deployment in your Se
 
 You can filter findings by date. Setting `DATE=2024-01-01` exports all findings since January 1, 2024 (interpreted in GMT and converted to epoch automatically).
 
-## Background
-
-The Semgrep UI does not currently offer a bulk-export feature for downloading findings across all repositories. This script closes the gap by calling the Semgrep API directly and exporting everything in clean, structured JSON.
-
 ## Requirements
 
 * **Node.js (v16 or later)**
